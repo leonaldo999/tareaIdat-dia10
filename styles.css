@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Roboto Condensed", sans-serif;
+  src: url(../estio-texto/fonts/RobotoCondensed-Italic-VariableFont_wght.ttf);
+  font-weight: normal;
+  font-style: italic;
+}
+
+html {
+  font-size: 26px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(181, 181, 245, 0.9);
+}
+
+main {
+  background-color: rgb(26, 26, 149);
+  color: aliceblue;
+  text-align: center;
+  font-family: "Roboto Condensed", 'Courier New', Courier, monospace;
+}
+
+header {
+  background-color: rgba(181, 181, 245, 0.4);
+  box-shadow: 25px 1px 15px red;
+}
+
+h1 {
+  color: rgb(246, 58, 58);
+  text-align: center;
+  font-style: oblique;
+  font-size: 2.5em;
+  font-weight: 800;
+  letter-spacing: 2px;
+  word-spacing: 15px;
+}
+
+ul {
+  list-style-type: none;
+  /* margin: 0;
+  padding: 0; */
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  font-size: 30px;
+}
+
+section {
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 25px 1px 15px blanchedalmond;
+  background-color: rgba(0, 0, 255, .7);
+}
+
+h2 {
+  color: rgb(187, 239, 55);
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+strong {
+  color: black;
+}
+
+.a-col {
+  color: chartreuse;
+}
+
+em {
+  color: red;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+pre {
+  text-align: left;
+  background-color: rgb(180, 235, 151);
+  color: black;
+}
+
+footer {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: right;
+}
